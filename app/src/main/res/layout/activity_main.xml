@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/basic8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="Viktorina\nSavollar"
+        android:textColor="#FFB300"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/basic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        />
+
+    <LinearLayout
+        android:id="@+id/basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/mix_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/desinger_1"
+            android:fontFamily="sans-serif-black"
+            android:padding="8dp"
+            android:text="Aralash"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/math_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/desinger_1"
+            android:fontFamily="sans-serif-black"
+            android:padding="8dp"
+            android:text="Matematik"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/english_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/desinger_1"
+            android:fontFamily="sans-serif-black"
+            android:padding="8dp"
+            android:text="Ingiliz tili"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/geographic_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/desinger_1"
+            android:fontFamily="sans-serif-black"
+            android:padding="8dp"
+            android:text="       Geografiya      "
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/desinger_1"
+            android:elevation="15dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="8dp"
+            android:text="Chiqish"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
